@@ -19,6 +19,9 @@
   text-align: left;
 }
 
+.course-div-content {
+  padding: 0 30px;
+}
 .course-div-content .card {
   margin: 10px 0;
   padding: 0;
@@ -30,9 +33,23 @@
   padding: 0;
 }
 .course-div-content .card .card-body .card-title {
+  color: white;
+  padding: 10px 5px;
+  font-size: 16px;
   width: 100%;
-  background-color: #0065B4;
+  background: rgb(0, 101, 180);
+  background: linear-gradient(90deg, rgb(0, 101, 180) 0%, rgb(0, 156, 246) 100%);
 }
 .course-div-content .card .card-body .card-title.by-client {
-  background-color: #FF9D0A;
+  background: rgb(206, 124, 0);
+  background: linear-gradient(90deg, rgb(206, 124, 0) 0%, rgb(255, 157, 10) 100%);
+}
+.course-div-content .card .card-body .card-text {
+  font-weight: 600;
+  text-align: left;
+  margin-left: 10px;
+}
+.course-div-content .card .card-body p {
+  text-align: left;
+  margin-left: 10px;
 }/*# sourceMappingURL=content.css.map */

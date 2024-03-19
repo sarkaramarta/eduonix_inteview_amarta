@@ -24,6 +24,7 @@
     
 }
 .course-div-content {
+    padding: 0 30px;
     .card {
         margin: 10px 0;
         padding: 0;
@@ -33,11 +34,25 @@
         .card-body {
             padding: 0;
             .card-title {
+                color: white;
+                padding: 10px 5px;
+                font-size: 16px;
                 width: 100%;
-                background-color: #0065B4 ;
+                background: rgb(0,101,180);
+                background: linear-gradient(90deg, rgba(0,101,180,1) 0%, rgba(0,156,246,1) 100%);
                 &.by-client {
-                    background-color: #FF9D0A;
+                    background: rgb(206,124,0);
+background: linear-gradient(90deg, rgba(206,124,0,1) 0%, rgba(255,157,10,1) 100%);
                 }               ;
+            }
+            .card-text {
+                font-weight: 600;
+                text-align: left;
+                margin-left: 10px;
+            }
+            p {
+                text-align: left;
+                margin-left: 10px;
             }
         }
     }

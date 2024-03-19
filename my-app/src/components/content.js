@@ -18,7 +18,7 @@ const Content = () => {
         <div className="sort">
           <div className="course-sort">
             <label>Explore</label>
-            <select>
+            <select className="ms-2">
               <option>Courses</option>
               <option>Assessments</option>
               <option>E-Books</option>
@@ -31,7 +31,7 @@ const Content = () => {
 
             <button
               type="button"
-              class="btn btn-primary"
+              class="btn btn-primary ms-3"
               data-bs-toggle="modal"
               data-bs-target="#exampleModal"
             >
@@ -98,7 +98,7 @@ const Content = () => {
         </div>
         <div className="course-div-content mt-3">
         <div className="row justify-content-between">
-          <div class="card col-md-2 ms-1">
+          <div class="card col-md-4 col-lg-2 ms-1">
             <img src={course1} class="card-img-top" alt="Course1" />
             <div class="card-body">
               <h5 class="card-title by-codeble">by codeblu</h5>
@@ -108,7 +108,7 @@ const Content = () => {
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p>
             </div>
           </div>
-          <div class="card col-md-2 ms-1">
+          <div class="card col-md-4 col-lg-2 ms-1">
             <img src={course1} class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title by-client">by client</h5>
@@ -118,7 +118,7 @@ const Content = () => {
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p>
             </div>
           </div>
-          <div class="card col-md-2 ms-1">
+          <div class="card col-md-4 col-lg-2 ms-1">
             <img src={course1} class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -128,7 +128,7 @@ const Content = () => {
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p>
             </div>
           </div>
-          <div class="card col-md-2 ms-1">
+          <div class="card col-md-4 col-lg-2 ms-1">
             <img src={course1} class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -138,7 +138,7 @@ const Content = () => {
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p>
             </div>
           </div>
-          <div class="card col-md-2 ms-1">
+          <div class="card col-md-4 col-lg-2 ms-1">
             <img src={course1} class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -148,7 +148,7 @@ const Content = () => {
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p>
             </div>
           </div>
-          <div class="card col-md-2 ms-1">
+          <div class="card col-md-4 col-lg-2 ms-1">
             <img src={course1} class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -158,7 +158,7 @@ const Content = () => {
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p>
             </div>
           </div>
-          <div class="card col-md-2 ms-1">
+          <div class="card col-md-4 col-lg-2 ms-1">
             <img src={course1} class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -168,7 +168,7 @@ const Content = () => {
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p>
             </div>
           </div>
-          <div class="card col-md-2 ms-1">
+          <div class="card col-md-4 col-lg-2 ms-1">
             <img src={course1} class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -178,7 +178,7 @@ const Content = () => {
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p>
             </div>
           </div>
-          <div class="card col-md-2 ms-1">
+          <div class="card col-md-4 col-lg-2 ms-1">
             <img src={course1} class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -188,7 +188,7 @@ const Content = () => {
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p>
             </div>
           </div>
-          <div class="card col-md-2 ms-1">
+          <div class="card col-md-4 col-lg-2 ms-1">
             <img src={course1} class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -198,7 +198,7 @@ const Content = () => {
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p>
             </div>
           </div>
-          <div class="card col-md-2 ms-1">
+          <div class="card col-md-4 col-lg-2 ms-1">
             <img src={course1} class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -208,7 +208,7 @@ const Content = () => {
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p>
             </div>
           </div>
-          <div class="card col-md-2 ms-1">
+          <div class="card col-md-4 col-lg-2 ms-1">
             <img src={course1} class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -218,7 +218,7 @@ const Content = () => {
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p>
             </div>
           </div>
-          <div class="card col-md-2 ms-1">
+          <div class="card col-md-4 col-lg-2 ms-1">
             <img src={course1} class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -228,7 +228,7 @@ const Content = () => {
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p>
             </div>
           </div>
-          <div class="card col-md-2 ms-1">
+          <div class="card col-md-4 col-lg-2 ms-1">
             <img src={course1} class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -238,7 +238,7 @@ const Content = () => {
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p>
             </div>
           </div>
-          <div class="card col-md-2 ms-1">
+          <div class="card col-md-4 col-lg-2 ms-1">
             <img src={course1} class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
