@@ -1,0 +1,38 @@
+.sort {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between !important;
+  position: relative;
+}
+.sort .modal-dialog {
+  position: fixed;
+  right: 50px;
+}
+.sort .modal-dialog .modal-content {
+  width: -moz-fit-content !important;
+  width: fit-content !important;
+}
+.sort .modal-dialog .modal-content .modal-body {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.course-div-content .card {
+  margin: 10px 0;
+  padding: 0;
+}
+.course-div-content .card .card-img-top {
+  width: 100%;
+}
+.course-div-content .card .card-body {
+  padding: 0;
+}
+.course-div-content .card .card-body .card-title {
+  width: 100%;
+  background-color: #0065B4;
+}
+.course-div-content .card .card-body .card-title.by-client {
+  background-color: #FF9D0A;
+}/*# sourceMappingURL=content.css.map */

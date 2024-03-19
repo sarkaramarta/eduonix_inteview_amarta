@@ -1,0 +1,7 @@
+.navbar-div .container {
+  display: flex;
+  justify-content: none !important;
+}
+.navbar-div .container .navbar-brand {
+  justify-content: left !important;
+}/*# sourceMappingURL=navbar.css.map */
